@@ -124,16 +124,7 @@ Right, I've installed jQuery, Bootstrap, and Normalize.css.
 + No longer check in other projects into to your repo
 + Keeps packages outside of project file directory all up in `bower_components`
 
-## Why Bower and not ______
-
-**Un-opinionated**
-
-Bower does not prescribe a methodology for how you consume packages. 
-
-Volo, Component, Jam, Ender
-
-+ Confusing
-+ Made it harder for devs to adopt
+## Dependency management
 
 ---
 

@@ -18,6 +18,7 @@ Why this is good
 - don't have to scour over the net to get stuff
 - easy for co-workers to hope on
 - don't commit other's code to your projects
+- dependency management
 
 Bower vs. the other guys
 - no consumption model
