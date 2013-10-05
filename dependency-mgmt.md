@@ -12,5 +12,8 @@ A package that gets built upon another package gets to take advantage of the wor
 
 <!-- Ideally, any novice programmer can build an application with serious complexity, by utilizing packages that are d -->
 
-Oh man, don't you want that? Right now our packages are fractured. Some are wrapped up in monolithic libraries, and some have CSS, and some are JS, and some need to be downloaded, and some need to be
+Oh man, don't you want that? Right now our packages are fractured. Some are wrapped up in monolithic libraries, and some have CSS, and some are JS, and some need to be downloaded, and some need to be cloned and built.
 
+---
+
+Yes, 
