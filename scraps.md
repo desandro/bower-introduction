@@ -13,3 +13,19 @@ I could go on and explain more of what Bower is. That you can point to your own 
 ---
 
 Yes, I work at Twitter. And yes, I have contributed to Bower. But the reason I stand here today is not just to proslytize an assignment. I am excited to talk about Bower, becuase it's honestly worked for me as a user. I needed it for my own projects. I needed it, and since adopting it 8 months ago, I've found success. I'd like to share that with you.
+
+---
+
+Encapsulation is important because it breaks down large, unruly things, into smaller pieces. Smaller pieces are easier to understand. We can only fit so much into our heads at one point. When you are working on a component, you can simplify the story.
+
+---
+
+We shouldn't be commiting projects inside of one other.
+
+---
+
+Bringing over the same principles of coding, into how we manage projects.
+
+- Encapsulation
+- DRY
+- 
