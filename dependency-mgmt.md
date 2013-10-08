@@ -31,25 +31,40 @@ For my purposes, I could build Isotope and Masonry, have them depend on the same
     ├── eventie
     └── doc-ready
 
-
-## npm
-
-A large part of the success of Node JS as a platform is its package management, provided by npm.
-
-So let's say you want to do some fun stuff with Twitter, you can do so! Because someone else has already built a Twitter client
-
-https://github.com/AvianFlu/ntwitter
-
-That person was able to build the twitter client, because someone else already built an Ouath client
-
-https://github.com/ciaranj/node-oauth
-
-A package that gets built upon another package gets to take advantage of the work done by a previous author. With each package that gets registered, the benefits start piling up recursively.
-
-<!-- Ideally, any novice programmer can build an application with serious complexity, by utilizing packages that are d -->
-
-Oh man, don't you want that? Right now our packages are fractured. Some are wrapped up in monolithic libraries, and some have CSS, and some are JS, and some need to be downloaded, and some need to be cloned and built.
-
 ---
 
-Yes, 
+Once I started going down this path, of breaking up these libraries into smaller components, it became clear that I could go one step further, and abstract a general layout library class.
+
+    outlayer
+    ├── doc-ready
+    ├── eventEmitter
+    ├── eventie
+    ├── get-size
+    ├── jquery-bridget
+    └── matches-selector
+    
+    isotope
+    └── outlayer
+    
+    masonry
+    └── outlayer
+    
+    packery
+    └── outlayer
+
+When building other libraries, like a revision on imagesLoaded, or Draggabilly, I was able to take advantage of the smaller component libraries.
+
+    draggabilly
+    ├── classie
+    ├── eventEmitter
+    └── eventie
+    
+    imagesloaded
+    ├── eventEmitter
+    └── eventie
+
+Componentization and encapsulation is nothing new to programming. Ruby has gems, and Python has eggs, node has npm.
+
+
+
+
