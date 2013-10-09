@@ -35,7 +35,7 @@ front end dev today. collecting a lot of shit
 
 ### Bower is special because it is unopinionated.
 
-+ Others in the market - Component, npm, Volo, Jam, Ender
++ Others in the market - Component, npm, Volo, Jam, Ender, Browserify, git submodules
 
 + It doesn't even have to be a package, can just be http
 

@@ -57,7 +57,7 @@ Consider how do you get this stuff?
 + Clone git repo
 + already saved locally
 
-Where do you put?
+Where do you put it?
 
 + lib/
 + lib/vendor/
