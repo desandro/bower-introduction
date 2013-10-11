@@ -29,3 +29,14 @@ Bringing over the same principles of coding, into how we manage projects.
 - Encapsulation
 - DRY
 - 
+
+---
+
+In the current front-end resource ecosystem, each solution works independently of one another. Yes there is interoperability, so two resources can work together. But there is little dependency, where a resource works by relying on another. For the most part, resources are siloed.
+
+If there is any dependency, it is likely to be on a framework, like jQuery or Bootstrap or Foundation, or on utility library, like Underscore/lo-dash. If our front-end applications had a struture, it would be especially flat, with few levels.
+
+What this means is that each resource must be built in such a way that it can stand up on its own. Each resource must maintain considerable structure.
+
+I don't mean to say that the resources we have now are bloated and oversized. However, the logic within current resources is cumbersome.
+

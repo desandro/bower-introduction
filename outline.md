@@ -47,6 +47,8 @@ front end dev today. collecting a lot of shit
 
 + Reason why I chose it. I didn't want to prescribe a methodology on to my users.
 
++ when you chose a distribution platform, you are also choosing it for your users. You don't want to have them be locked in to the one platform / lock them out of using something else.
+
 ### Example: Masonry, Isotope & Packery
 
 + mono-file-ism
