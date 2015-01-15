@@ -40,3 +40,12 @@ What this means is that each resource must be built in such a way that it can st
 
 I don't mean to say that the resources we have now are bloated and oversized. However, the logic within current resources is cumbersome.
 
+
+---
+
+Easily gets packages
+Keeps it organized
+Manages dependencies
+
+---
+

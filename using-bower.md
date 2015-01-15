@@ -68,6 +68,13 @@ Once we have some packages installed, we run:
     bower init
 
 And it asks a bunch of questions. All the defaults are good, so just like any over-confident developer, I'm just going to keep pressing enter till its done.
+  
+    "dependencies": {
+      "jquery": "1.x",
+      "normalize-css": "~2.1.3"
+    }
+
+---
 
 **Adding files after bower.json**
 
@@ -100,6 +107,8 @@ Now that we have `bower.json`, we can re-use this manifest file, and Bower will 
     └── jquery#2.0.3
 
 Your colleague is like "what r u workin on?" You supply git://github.com/user/project.git. They clone the git repo. They have Bower installed. They do `bower install`. And boom they have all the necessary components.
+
+
 
 ### List
 

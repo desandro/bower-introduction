@@ -61,3 +61,12 @@ Like for example...
 
 + focus just at the task at hand
 + no longer have to keep the whole mental model in my head
+
+### How?
+
+I realize I skipped a lot of "how" parts
+
+How do you hook up Grunt tasks to Bower
+How do you split a project into multiple files?
+How do you make JS work with both RequireJS and `<script />`
+How do you create concatenated source files, for easy `<link />`ing?
